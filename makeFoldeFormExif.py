@@ -64,7 +64,7 @@ def display(i, total):
 def extracData ():
     fileList = [fl for fl in listdir(".") if isfile(join(".", fl))]
     totalFiles = len(fileList)
-    for i range (totalFiles)
+    for i in range (totalFiles)
     	file = fileList[i]
         if file.endswith(".jpeg") or file.endswith(".jpg") or file.endswith(".tiff") or file.endswith(".JPEG") or file.endswith(".JPG") or file.endswith(".TIFF"):
             tags = exifread.process_file(open(file, 'rb'))
