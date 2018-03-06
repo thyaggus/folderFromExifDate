@@ -41,8 +41,8 @@ if __name__ == "__main__":
     #### begin of experiment
 
 def display(i, total):
-	i*100/total
-	processed = int(percent*20/100)
+	percent = i*100/total
+	processed = int(percent*70/100)
 	progress = ""
 	blank = ""
 
